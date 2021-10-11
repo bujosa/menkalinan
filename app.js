@@ -1,6 +1,6 @@
 const https = require("https");
 
-callback = function(response) {
+const callback = function(response) {
     var str = ''
     response.on('data', function (chunk) {
         str += chunk;
